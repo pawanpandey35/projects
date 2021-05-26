@@ -1,0 +1,124 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            Home
+        </title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+    
+        <header>
+            
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="logo.png">
+                    </a>
+                </div>
+                <h1>Smart Traffic</h1>
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="reg.html">Online Registration</a>
+                <a href="rr.html">Rules and Regulation</a>
+                <a href="off.html">Our Offices</a>
+        </header>
+        <div>
+        <div class="login-page">
+
+
+            <div class="form">
+                <form class="register-form" action="#">
+                    <h2>FOR TRAFFIC OFFICER</h2>
+
+                    <input type="text" placeholder="User Name" name="un" />
+
+                    <input type="password" placeholder="Password" name="pwd" />
+
+                    <button onclick="myFunction1()">
+                        <a href="#">
+                            Login</a>
+                    </button>
+
+                    <p class="message">
+
+                        Not a traffic officer?
+
+
+                        <a href="#">
+                            Login as USER
+                        </a>
+                    </p>
+                </form>
+
+
+
+                <form class="login-form">
+                    <h2>USER LOGIN</h2>
+
+                    ENTER YOUR LICENCE NUMBER:
+
+                    <input type="number" placeholder="Licence Number" name="lin" /></br>
+
+
+
+                    <button onclick="myFuncion2()"><a href="./template/b1.html">Login</a></button>
+
+                    <p class="message">
+
+                        For a USER?
+
+
+                        <a href="#">
+                            Login as Traffic personnel
+                        </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+        </script>
+        <script>
+            $('.message a').click(function () {
+                $('form').animate({
+                    height: "toggle",
+                    "opacity": "toggle"
+                }, "slow");
+            });
+        </script>
+        <script>
+            function myFunction1() {
+                document.getElementById("register-form");
+                var text = "";
+                var i;
+                for (i = 0; i < x.length; i++) {
+                    text += x.elements[i].value + "<br>";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+        <script>
+            if (lin == licence_number) {
+                function myFunction2() {
+                    document.getElementById("login-form");
+                    var text = "";
+                    var i;
+                    for (i = 0; i < x.length; i++) {
+                        text += x.elements[i].value + "<br>";
+                    }
+                    document.getElementById("demo").innerHTML = text;
+                }
+            } else {
+                console.log("Invalid Licence Number");
+            }
+        </script>
+        <footer>
+            <p>
+                Designed By:Anupam Wagle
+            </p>
+        </footer>
+       
+        
+    </body>
+</html>

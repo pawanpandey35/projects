@@ -1,0 +1,69 @@
+ body {
+     margin: 0 0 0 0;
+     background: whitesmoke;
+     background-size: cover;
+     padding-top: 0px;
+ }
+
+
+ header {
+     position: fixed;
+     width: 100%;
+     text-align: center;
+     color: white;
+     transition: .4s;
+     background: black;
+     padding: 0 0 20px;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: inherit;
+     padding: 1rem;
+     overflow: hidden;
+ }
+
+ .logo img {
+     position: absolute;
+     width: 330px;
+     height: 100px;
+     opacity: 100%;
+     margin-left: 10px;
+     display: block;
+     overflow: hidden;
+     margin-top: 10px;
+ }
+
+ .a {
+     padding-top: 150px;
+     text-align: left;
+     color: black;
+ }
+
+ .b{
+     padding-top: 10px;
+     text-align: left;
+     color: black;
+
+ }
+
+ .c{
+     padding-top: 5px;
+     padding-bottom: 20px;
+     text-align: left;
+     font-size: medium;
+     font-weight: 200;
+     transition: ease-in;
+ }
+
+ .e img {
+     height:200px;
+     width: 350px;
+     padding: 10px;
+ }
+    footer {
+        background: black;
+        color: aliceblue;
+
+    }
+
